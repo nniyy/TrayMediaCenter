@@ -1,5 +1,5 @@
 # Media Tray Center
-<img width="100%" src="./docs/preview.gif"/>
+<img width="100%" src="./doc/preview.gif"/>
 
 ## Features
 - Left click: Play/Pause
@@ -14,3 +14,4 @@
 
 ## Download
 - **[Latest Release](https://github.com/nniyy/MediaTrayCenter/releases/latest)**
+
