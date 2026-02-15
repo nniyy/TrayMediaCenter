@@ -1,4 +1,4 @@
-# TrayMediaCenter
+# Media Tray Center
 <img width="100%" src="./docs/preview.gif"/>
 
 ## Features
@@ -13,4 +13,4 @@
 - Windows 10/11
 
 ## Download
-- **[Latest Release](https://github.com/nniyy/TrayMediaCenter/releases/latest)**
+- **[Latest Release](https://github.com/nniyy/MediaTrayCenter/releases/latest)**
