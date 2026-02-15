@@ -64,26 +64,26 @@ partial class FMain
         contextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { playPauseToolStripMenuItem, nextToolStripMenuItem, previousToolStripMenuItem, settingsToolStripMenuItem, exitToolStripMenuItem });
         contextMenuStrip.Name = "contextMenuStrip";
         contextMenuStrip.ShowImageMargin = false;
-        contextMenuStrip.Size = new System.Drawing.Size(156, 136);
+        contextMenuStrip.Size = new System.Drawing.Size(108, 114);
         // 
         // playPauseToolStripMenuItem
         // 
         playPauseToolStripMenuItem.Name = "playPauseToolStripMenuItem";
-        playPauseToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+        playPauseToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
         playPauseToolStripMenuItem.Text = "Play/Pause";
         playPauseToolStripMenuItem.Click += playPauseToolStripMenuItem_Click;
         // 
         // nextToolStripMenuItem
         // 
         nextToolStripMenuItem.Name = "nextToolStripMenuItem";
-        nextToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+        nextToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
         nextToolStripMenuItem.Text = "Next";
         nextToolStripMenuItem.Click += nextToolStripMenuItem_Click;
         // 
         // previousToolStripMenuItem
         // 
         previousToolStripMenuItem.Name = "previousToolStripMenuItem";
-        previousToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+        previousToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
         previousToolStripMenuItem.Text = "Previous";
         previousToolStripMenuItem.Click += previousToolStripMenuItem_Click;
         // 
@@ -91,21 +91,21 @@ partial class FMain
         // 
         settingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { startOnToolStripMenuItem });
         settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-        settingsToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+        settingsToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
         settingsToolStripMenuItem.Text = "Settings";
         // 
         // startOnToolStripMenuItem
         // 
         startOnToolStripMenuItem.CheckOnClick = true;
         startOnToolStripMenuItem.Name = "startOnToolStripMenuItem";
-        startOnToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+        startOnToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
         startOnToolStripMenuItem.Text = "Autostart";
         startOnToolStripMenuItem.Click += startOnToolStripMenuItem_Click;
         // 
         // exitToolStripMenuItem
         // 
         exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-        exitToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+        exitToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
         exitToolStripMenuItem.Text = "Exit";
         exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
         // 
@@ -149,8 +149,10 @@ partial class FMain
         AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
         AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         ClientSize = new System.Drawing.Size(284, 261);
+        Icon = ((System.Drawing.Icon)resources.GetObject("$this.Icon"));
         MaximizeBox = false;
         MinimizeBox = false;
+        ShowIcon = false;
         StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
         FormClosing += FMain_FormClosing;
         Load += FMain_Load;

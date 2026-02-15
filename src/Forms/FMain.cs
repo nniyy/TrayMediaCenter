@@ -9,7 +9,7 @@ namespace TrayMediaCenter.Forms;
 
 public partial class FMain : Form
 {
-    private static string _appName = "TrayMediaCenter";
+    private static string _appName = "Media tray center";
     private CancellationTokenSource? _flashCts;
     private Image? _thumb;
     private DateTime _lastHoverRefreshUtc = DateTime.MinValue;
@@ -85,7 +85,7 @@ public partial class FMain : Form
     {
         if (e.Button == MouseButtons.Left)
         {
-            await FlashTrayIconAsync(GetSwitchIcon(forward: true), 500);
+            await FlashTrayIconAsync(GetSwitchIcon(forward: true));
             await _media.NextAsync();
             await _media.RefreshAsync();
         }
@@ -97,7 +97,7 @@ public partial class FMain : Form
 
         if ((ModifierKeys & Keys.Shift) == Keys.Shift)
         {
-            await FlashTrayIconAsync(GetSwitchIcon(forward: false), 500);
+            await FlashTrayIconAsync(GetSwitchIcon(forward: false));
             await _media.PrevAsync();
         }
         else
